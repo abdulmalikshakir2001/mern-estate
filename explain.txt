@@ -1,0 +1,16 @@
+1)create react project with configuration of tailwind css.
+2)remove all unnecessary things from react.
+3)console ninja extension 
+4)github copilot // paid
+5)gihub copilot chat  
+6)u can change the port of server in package.json.
+7)initialize git repo for client project.
+8)u can also add link in gihub repo by setting option at right side.
+CREATE PAGES AND ROUTES:
+9)make pages 
+10)install react router dom.
+CREATE HEADER COMPONENT:
+11)npm install react-icons
+CREATE AND RUN SERVER:
+    12)install express.
+    13)install node mon.
