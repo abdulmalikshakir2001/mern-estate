@@ -14,3 +14,6 @@ CREATE HEADER COMPONENT:
 CREATE AND RUN SERVER:
     12)install express.
     13)install node mon.
+CONNECT DB:
+14)npm install mongoose
+15)for env var we need another package npm install  dotenv and then write dotenv.confi() in index file.
