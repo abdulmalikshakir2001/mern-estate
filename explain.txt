@@ -21,3 +21,13 @@ CONNECT DB:
 17)create route
 18)make proxy for backend when ever request made from another url  it will act as a url of backend.
 19)make controller for routes.
+20)create sign up api route
+21)npm install bcryptjs using sync method.
+22)showing model  error  to the user  by try catch of querye. 
+23)best way to handle model validation errors using middleware  in index.js // error middleware should be write after the  req routes when in route controller if error occurs and u call next with parameter error:of catch(error) then it will run the error middleware . 
+24)we also make error handler for custom validation . 
+25)
+
+
+
+
