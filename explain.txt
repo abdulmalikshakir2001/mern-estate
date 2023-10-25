@@ -26,7 +26,7 @@ CONNECT DB:
 22)showing model  error  to the user  by try catch of querye. 
 23)best way to handle model validation errors using middleware  in index.js // error middleware should be write after the  req routes when in route controller if error occurs and u call next with parameter error:of catch(error) then it will run the error middleware . 
 24)we also make error handler for custom validation . 
-25)
+25)create ui of sign up page. 
 
 
 
