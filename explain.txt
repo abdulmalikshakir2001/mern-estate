@@ -18,3 +18,6 @@ CONNECT DB:
 14)npm install mongoose
 15)for env var we need another package npm install  dotenv and then write dotenv.confi() in index file.
 16)create models i-e userModel,
+17)create route
+18)make proxy for backend when ever request made from another url  it will act as a url of backend.
+19)make controller for routes.
