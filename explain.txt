@@ -27,6 +27,8 @@ CONNECT DB:
 23)best way to handle model validation errors using middleware  in index.js // error middleware should be write after the  req routes when in route controller if error occurs and u call next with parameter error:of catch(error) then it will run the error middleware . 
 24)we also make error handler for custom validation . 
 25)create ui of sign up page. 
+26)we make request from front end to backend   so the front end url is different from backend so we have to write the full url of backend like https:localhost:3000/route , so to avoid write the full url for backend we have to write like /route and the first part will be handle using proxy
+27)useNavigate
 
 
 

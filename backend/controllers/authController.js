@@ -10,7 +10,7 @@ export const signup =  async (req, res,next) => {
     // const result =  await User.deleteMany()
     try{
         const user =  await  User.create({username,email,password:hashedPassword});    
-        return  res.status(201).send('User created successfully');
+        return  res.status(201).json('User created successfully');
 
     }catch(err){
         // return res.json(err);
