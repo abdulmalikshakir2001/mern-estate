@@ -49,7 +49,7 @@ go to firebase > go to console & create project,click on web button (</>)  next 
 
     in PrivateRoute we have outlet which will render the profile 
     if we call uri /profile it will render the parent  and parent contain outlet  which will render the component which is called by uri . 
-42)
+42)complete profile page ui .
 
 
 
