@@ -33,7 +33,15 @@ CONNECT DB:
 29)npm install  jsonwebtoken .
 30)save jwt secret in env var.
 31)no need to store password after login for security purpose.
-32)
+32)create sing in page functionality 
+33)setup redux tool kit . // one use is when the user login store the user info in redux store to access in all componenets.
+34)problem is when the page refresh redux store data become reset use add redux persist to store data in local storage.
+35)npm i redux-persist // use this in redux store.
+36)add googel auth functionality by the following step,
+go to firebase > go to console & create project,click on web button (</>)  next next, then go to authentication choose google (provider) enable it and choose name for the project and then choose gmail account from dropdown 
+37)if there is only one account after that google remebers and dont show pop up  if two account then google will show popup.
+38)create env file for client.
+39)get the use data from google and create new user in the db also remember that we have password required in model  so we have to create random password while register user using google auth.
 
 
 
