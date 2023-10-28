@@ -42,6 +42,15 @@ go to firebase > go to console & create project,click on web button (</>)  next 
 37)if there is only one account after that google remebers and dont show pop up  if two account then google will show popup.
 38)create env file for client.
 39)get the use data from google and create new user in the db also remember that we have password required in model  so we have to create random password while register user using google auth.
+40)using middleware to protect routes.
+41)<Route element={<PrivateRoute />} >  
+        <Route path="/profile" element={<Profile />} />
+    </Route>
+
+    in PrivateRoute we have outlet which will render the profile 
+    if we call uri /profile it will render the parent  and parent contain outlet  which will render the component which is called by uri . 
+42)
+
 
 
 
